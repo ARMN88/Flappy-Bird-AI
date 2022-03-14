@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flappy Bird</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    canvas {
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -webkit-crisp-edges;
+      image-rendering: pixelated;
+      background: black;
+    }
+
+    .info {
+      position: fixed;
+      top: 0;
+      right: 0;
+      background: rgba(0, 0, 0, .6);
+      color: white;
+      width: 15%;
+    }
+    .container {
+      width: 90%;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <canvas></canvas>
+  <div class="info">
+    <div class="container">
+      <h3 class="generation">Generation: 1</h3>
+      <h3 class="score">Score: 0</h3>
+      <h3 class="top">High Score: 0</h3>
+      <h3 class="remaining">Remaining Birds: 50</h3>
+    </div>
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/eruda/2.4.1/eruda.min.js"></script>
+<script src="MMath.js"></script>
+<script src="script.js"></script>
+</html>
