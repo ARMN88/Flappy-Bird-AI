@@ -1,5 +1,5 @@
 # Flappy-Bird-AI
-An AI that leans how to play flappy bird using a neural network that learns through evolution.
+An AI that learns how to play flappy bird using a neural network that learns through evolution.
 
 ## How It Works
 There are 100 birds to start, each have a neural network that is inputted the 
